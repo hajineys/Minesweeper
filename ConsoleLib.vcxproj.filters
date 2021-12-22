@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\ConsoleLib">
+      <UniqueIdentifier>{09dffa65-e2a2-4f3b-8dea-4f27a5f225ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Player">
+      <UniqueIdentifier>{0e5617d6-db70-4d7a-9ca6-b2c4112ed43a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Map">
+      <UniqueIdentifier>{1eac070f-39be-4c17-9376-6143e2440110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\GameManager">
+      <UniqueIdentifier>{9dfb47ad-5aac-47b3-8619-ab29d6492aca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>리소스 파일\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>리소스 파일\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="game_manager.cpp">
+      <Filter>리소스 파일\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="player.h">
+      <Filter>리소스 파일\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>리소스 파일\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleLib.h">
+      <Filter>리소스 파일\ConsoleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="new_conio.h">
+      <Filter>리소스 파일\ConsoleLib</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="game_manager.h">
+      <Filter>리소스 파일\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
